@@ -38,7 +38,7 @@ export function App() {
 			setOutput(csvToJson(content))
 			setLastConversion('csv2json')
 		} catch (err: any) {
-			alert(err)
+			alert(err.message)
 		}
 	}
 
