@@ -1,0 +1,72 @@
+.container {
+	padding: 0 20px;
+	padding-top: 24px;
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+textarea, .result {
+	border: 10px solid var(--zinc-500);
+	border-radius: 24px;
+	background-color: var(--zinc-700);
+	width: 100%;
+	padding: 16px;
+	font-size: 18px;
+}
+
+textarea {
+	color: var(--zinc-100);
+	outline: none;
+	resize: none;
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	padding: 4px 16px;
+	height: 330px;
+	overflow-y: scroll;
+}
+
+.result i {
+	margin: auto;
+	color: var(--zinc-500);
+}
+
+::placeholder {
+  color: var(--zinc-300);
+}
+
+.buttons {
+	padding: 24px 0;
+	display: flex;
+	justify-content: space-around;
+	gap: 24px;
+}
+
+button, .button {
+	cursor: pointer;
+	width: 100%;
+	background-color: var(--zinc-700);
+	padding: 12px;
+	border-radius: 12px;
+	color: var(--zinc-100);
+	border: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+button i, .button i {
+	margin-right: 4px;
+}
+
+
+input[type=file] {
+	display: none;
+}
